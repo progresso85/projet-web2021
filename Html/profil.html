@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/profil.css">
+    <link rel="stylesheet" href="../Css/slider.css">
+    <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Profile Page</title>
+</head>
+<body>
+    <header>
+        <div id="demo" class="carousel-slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <!--<?
+              $i = 0;
+              foreach($result as $row){
+                  $actives = '';
+              if($i == 0){
+                  $actives ='active';
+              }
+              ?>
+              <li data-target="#demo" data-slide-to="<?= $i; ?>" class="<?= $actives;?>"></li>
+              <? $i++ ; }?>-->
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+            <!--<?
+              $i = 0;
+              foreach($result as $row){
+                  $actives = '';
+              if($i == 0){
+                  $actives ='active';
+              }
+              ?>-->
+              <div class="carousel-item"> <!--<?= $actives;?>-->
+                <img src=""> <!--- ?= $row['imageurl']?> -->
+              </div>
+              <!--<? echo $row['imageurl'];?>
+              <? $i++; }?>-->
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+        </div>
+    </header>
+    
+    <div class="idea_box_container">
+        <h1>Boite à Idées</h1>
+        <input type="text" id="idea_box_input" placeholder="Votre idée de serveur">
+    </div>
+    <!--div profile return all informations about the user-->
+    <div class="profile">
+        <!--the image and information can change based on the user-->
+        <div class="section_information">
+            <img id="profilePicture" src="https://www.tenforums.com/geek/gars/images/2/types/thumb_15951118880user.png" alt="this is a profile picture">
+            <div id="profileInformation">
+                <p>Pseudo</p>
+                <p>Description</p>
+            </div>
+            <div id="subscription">
+                <p>Nombre d'Abonnement</p>
+            </div>
+            <div id="parameters">
+                <a class="btn-parameter" href="#">Parameters</a>
+            </div>
+        </div>
+        <!--slider with all servers to which the user is subscribed-->
+        <div id="sub-demo" class="sub-carousel-slide" data-ride="sub-carousel">
+            <!-- Indicators -->
+            <ul class="sub-carousel-indicators">
+            <!--<?
+              $i = 0;
+              foreach($result as $row){
+                  $actives = '';
+              if($i == 0){
+                  $actives ='active';
+              }
+              ?>
+              <li data-target="#demo" data-slide-to="<?= $i; ?>" class="<?= $actives;?>"></li>
+              <? $i++ ; }?>-->
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="sub-carousel-inner">
+            <!--<?
+              $i = 0;
+              foreach($result as $row){
+                  $actives = '';
+              if($i == 0){
+                  $actives ='active';
+              }
+              ?>-->
+              <div class="sub-carousel-item"> <!--<?= $actives;?>-->
+                <img src=""> <!--- ?= $row['imageurl']?> -->
+              </div>
+              <!--<? echo $row['imageurl'];?>
+              <? $i++; }?>-->
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="sub-carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+        </div>
+        <!-- end of subscriptionSlider-->
+        <div class="newsfeed">
+            <div class="line_newsfeed">
+                <div class="newsfeed_server"> 
+                    <li>News feed first servers</li>
+                </div>
+                <div class="newsfeed_notification">
+                    <p>X</p>
+                </div>
+            </div>
+            <div class="line_newsfeed">
+                <div class="newsfeed_server"> 
+                    <li>News feed first servers</li>
+                </div>
+                <div class="newsfeed_notification">
+                    <p>X</p>
+                </div>
+            </div>
+            <div class="line_newsfeed">
+                <div class="newsfeed_server"> 
+                    <li>News feed first servers</li>
+                </div>
+                <div class="newsfeed_notification">
+                    <p>X</p>
+                </div>
+            </div>
+            <div class="line_newsfeed">
+                <div class="newsfeed_server"> 
+                    <li>News feed first servers</li>
+                </div>
+                <div class="newsfeed_notification">
+                    <p>X</p>
+                </div>
+            </div>
+            <!--<li>News feed second servers</li><p>X</p>
+            <li>News feed third servers</li><p>X</p>
+            <li>News feed fourth servers</li><p>X</p>-->
+        </div>
+    </div>
+    
+</body>
+<!--<script src="../JS/slider.js"></script>
+<script src="../JS/subscriptionSlider.js"></script>-->
+</html>

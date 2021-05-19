@@ -1,0 +1,91 @@
+.nameServer{
+    position: absolute;
+    box-shadow: 0px 3px 5px #0000003d;
+    background-color: #FFF4EE;
+    margin-top: 18%;
+    margin-left: 43%;
+    padding: 4%;
+    border-radius: 100px;
+    font-size: 30px;
+}
+/* Pop up add problem */
+#button{
+    position: absolute;
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 30%;
+    margin-left: 23%;
+}
+#modal{
+    border: 2px black solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#modal-content{
+    z-index: 1000;
+    width: 1035px;
+    height: 600px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    
+}
+#close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+/* Form pop up */
+#image-profil{
+    border: 1px black solid;
+    border-radius: 4px;
+}
+#pseudo{
+    margin-left: 40%;
+    margin-left: 5%;
+}
+.pseudo{
+    margin-left: 10%;
+}
+#modal-content-top{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 15%;
+    margin-top: 3%;
+}
+#modal-content-body{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#modal-content-bottom{
+    margin-top: 5%;
+    margin-left: 45%;
+    border: 1px black solid;
+    border-radius: 4px;
+    width: 10%;
+    text-align: center;   
+}
+
+/* Follow */
+#follow{
+    position: absolute;
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 30%;
+    margin-left: 70%;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+h2 {
+    text-align: center;
+}
+html, body{
+    background-color: #eaedfd;
+}
+
+/* This is a form for user information */
+.form_container {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.form_container input, .form_container textarea {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 5px -2px #2a272ac2;
+    border-radius: 10px;
+}
+
+.form_container button {
+    margin-top: 50%;
+}
+
+/* This is a cross icon button to redirect to profile page */
+#close_button {
+    margin-left: 5%;
+}
+/* This is register button style */
+#register{
+    border: 1px solid #2A272A;
+    background-color: #FFF4EE;
+    padding: 10%;
+    font-size: 15px;
+    border-radius: 25px;
+}
+#register:hover{
+    border: 1px solid #FFF4EE;
+    background-color: #8b8b8b;
+    color: #FFF4EE;
+    padding: 10%;
+    font-size: 15px;
+    border-radius: 25px;
+}
